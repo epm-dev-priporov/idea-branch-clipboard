@@ -9,10 +9,10 @@ import git4idea.repo.GitRepository
 import java.awt.Toolkit
 import java.awt.datatransfer.*
 
-class PasteBranchNameAction : AnAction("Paste branch name") {
+class PasteBranchNameAction : AnAction() {
 
     override fun actionPerformed(e: AnActionEvent) {
-        val project: Project = e.getData(CommonDataKeys.PROJECT)!!
+        val project: Project = e.getData(CommonDataKeys.PROJECT) ?: return
         val repositories: MutableCollection<GitRepository> = GitUtil.getRepositories(project)
 
         if (repositories.isEmpty()) {
@@ -25,10 +25,6 @@ class PasteBranchNameAction : AnAction("Paste branch name") {
         clipboard.setContents(BranchNameTransferable(currentBranch), clipboardOwner)
 
         println(currentBranch)
-    }
-
-    override fun update(e: AnActionEvent) {
-        super.update(e)
     }
 
 }
