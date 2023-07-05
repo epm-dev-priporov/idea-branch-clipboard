@@ -6,7 +6,8 @@
     <vendor email="devpriporov@gmail.com" url="https://github.com/epm-dev-priporov/idea-branch-clipboard">Dmitrii Priporov</vendor>
 
     <description><![CDATA[
-    <p> If you do not like to write git branch name whenever you need it, use this plugin. It copies the branch name to clipboard by shortcut(Ctrl+Shift+Q).
+    <p> If you do not like to write git branch name whenever you need it, use this plugin. It copies the branch name to clipboard by shortcut default(Ctrl+Shift+Q) or your own.</p>
+    <p> <img src="https://github.com/epm-dev-priporov/idea-branch-clipboard/blob/main/src/main/resources/img.png?raw=true"> </p>
   ]]></description>
 
     <actions>
