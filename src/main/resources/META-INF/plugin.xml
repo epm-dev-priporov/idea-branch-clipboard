@@ -11,7 +11,7 @@
 
     <actions>
         <group id="analyze">
-            <action class="dev.priporov.bc.PasteBranchNameAction">
+            <action class="dev.priporov.bc.PasteBranchNameAction" text="Copy git branch name to clipboard">
                 <keyboard-shortcut  first-keystroke="control shift Q" keymap="$default"/>
             </action>
         </group>
