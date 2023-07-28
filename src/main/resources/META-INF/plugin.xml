@@ -9,7 +9,13 @@
     <p> If you do not like to write git branch name whenever you need it, use this plugin. It copies the branch name to clipboard by shortcut default(Ctrl+Shift+Q) or your own.</p>
     <p> <img src="https://github.com/epm-dev-priporov/idea-branch-clipboard/blob/main/src/main/resources/img.png?raw=true"> </p>
   ]]></description>
-
+    <change-notes>
+        <![CDATA[
+        <ul>
+            <li>1.0.2: Support for IntellijIdea 2023.2</li>
+        </ul>
+    ]]>
+    </change-notes>
     <actions>
         <group id="analyze">
             <action class="dev.priporov.bc.PasteBranchNameAction" text="Copy git branch name to clipboard">
@@ -17,7 +23,7 @@
             </action>
         </group>
     </actions>
-
+    test
     <depends>com.intellij.modules.platform</depends>
     <depends>Git4Idea</depends>
 
