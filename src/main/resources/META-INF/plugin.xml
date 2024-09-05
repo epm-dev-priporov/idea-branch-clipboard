@@ -12,6 +12,9 @@
     <change-notes>
         <![CDATA[
         <ul>
+            <li>1.0.5: Support for IntellijIdea 2024.2</li>
+            <li>1.0.4: Support for IntellijIdea 2023.3</li>
+            <li>1.0.3: bugfix</li>
             <li>1.0.2: Support for IntellijIdea 2023.2</li>
         </ul>
     ]]>
